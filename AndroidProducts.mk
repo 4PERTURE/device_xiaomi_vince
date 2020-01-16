@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nitrogen_vince.mk
+    $(LOCAL_DIR)/bootleg_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    nitrogen_vince-user \
-    nitrogen_vince-userdebug \
-    nitrogen_vince-eng
+    bootleg_vince-user \
+    bootleg_vince-userdebug \
+    bootleg_vince-eng
