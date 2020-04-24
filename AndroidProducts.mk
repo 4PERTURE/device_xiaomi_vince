@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_vince.mk
+    $(LOCAL_DIR)/bootleg_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_vince-user \
-    aosip_vince-userdebug \
-    aosip_vince-eng
+    bootleg_vince-user \
+    bootleg_vince-userdebug \
+    bootleg_vince-eng
