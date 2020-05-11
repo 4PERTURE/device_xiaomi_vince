@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
 # Properties
 -include device/xiaomi/vince/prop.mk
 
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # Offline charger
 PRODUCT_PACKAGES += \
     charger_res_images \
